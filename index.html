@@ -7,21 +7,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Begin Jekyll SEO tag v2.5.0 -->
-    <title>Overview | DAPPER: Learning Domain-Adapted Persona Representation Using Pretrained BERT and External Memory</title>
+    <title>Overview | Lifelong Knowledge-Enriched Social Event Representation Learning</title>
     <meta name="generator" content="Jekyll v3.7.3" />
     <meta property="og:title" content="Overview" />
     <meta property="og:locale" content="en_US" />
-    <meta name="description" content="AACL: DAPPER: Learning Domain-Adapted Persona Representation Using Pretrained BERT and External Memory" />
-    <meta property="og:description" content="AACL: DAPPER: Learning Domain-Adapted Persona Representation Using Pretrained BERT and External Memory" />
-    <link rel="canonical" href="https://pralav.github.io/dapper" />
-    <meta property="og:url" content="https://pralav.github.io/dapper" />
+    <meta name="description" content="EACL: Lifelong Knowledge-Enriched Social Event Representation Learning" />
+    <meta property="og:description" content="EACL: Lifelong Knowledge-Enriched Social Event Representation Learning" />
+    <link rel="canonical" href="https://pralav.github.io/lifelong_eventrep" />
+    <meta property="og:url" content="https://pralav.github.io/lifelong_eventrep" />
     <meta property="og:site_name" content="adv_egs" />
     <script type="application/ld+json">
         {
-            "name": "Domain-Adapted Persona Embeddings",
-            "description": "DAPPER: Learning Domain-Adapted Persona Representation Using Pretrained BERT and External Memory",
+            "name": "Social Event Embeddings",
+            "description": "Lifelong Knowledge-Enriched Social Event Representation Learning",
             "@type": "WebSite",
-            "url": "https://pralav.github.io/dapper",
+            "url": "https://pralav.github.io/lifelong_eventrep",
             "headline": "Overview",
             "@context": "http://schema.org"
         }
@@ -37,12 +37,11 @@
 <body>
     <div class="wrapper">
         <header>
-            <h1><a href="https://pralav.github.io/dapper/">DAPPER: <h6>Domain-Adapted Pretraining-based Persona
-              Representation</h6>
+            <h1><a href="https://pralav.github.io/dapper/">DAPPER: <h6>Social Event Representation Learning</h6>
             </a></h1>
 
-            <p>Using BERT and External Memory <br/>
-                <a href="https://www.aclweb.org/anthology/2020.aacl-main.65.pdf"> Paper</a>&nbsp; &nbsp; &nbsp; <a href="https://github.com/pralav/dapper/raw/Main/persona_talk.pdf">Slides</a> &nbsp; &nbsp; &nbsp;<a href="#code">Code**</a>
+            <p>Using Knowledge-Enriched Lifelong Approaches <br/>
+                <a href="#"> Paper</a>&nbsp; &nbsp; &nbsp; <a href="#">Slides</a> &nbsp; &nbsp; &nbsp;<a href="#code">Code**</a>
             </p>
 
 
@@ -52,20 +51,18 @@
 
             <h2 id="overview">Overview</h2>
 
-            <p> We present a model called DAPPER that can learn to embed persona from natural language and alleviate task or domain-specific data sparsity issues related to personas. To this end, we implement a text encoding strategy that leverages a pretrained
-                language model and an external memory to produce domain-adapted persona representations. Further, we evaluate the transferability of these embeddings by simulating low-resource scenarios. Our comparative study demonstrates the capability
-                of our method over other approaches towards learning rich transferable persona embeddings. Empirical evidence suggests that the learnt persona embeddings can be effective in downstream tasks like hate speech detection.
+            <p> Several studies in cognitive psychology have established the role of mental state attributions in effectively representing variable aspects of these social events. In the past, NLP research on learning event representations often focuses on construing syntactic and semantic information from language. However, they fail to consider the importance of pragmatic aspects and the need to consistently update new social situational information without forgetting the accumulated experiences. In this work, we propose a representation learning framework to directly address these shortcomings by integrating social commonsense knowledge with recent advancements in the space of lifelong language learning. First, we investigate methods to incorporate pragmatic aspects into our social event embeddings by leveraging social commonsense knowledge. Next, we introduce continual learning strategies that allow for incremental consolidation of new knowledge while retaining and promoting efficient usage of prior knowledge. Experimental results on event similarity, reasoning, and paraphrase detection tasks prove the efficacy of our social event embeddings.
             </p>
 
-            <p><img src="https://github.com/pralav/dapper/raw/Main/dapper_1.png?raw=true" alt="Image" /></p>
+            <p><img src="https://github.com/pralav/lifelong_eventrep/raw/main/ll_img.png?raw=true" alt="Image" /></p>
 
             <h2 id="datasets">Datasets</h2>
 
             <ul>
 
-                <li><a href="https://pralav.github.io/emnlp_personas/">Movies Dialogue Corpus</a></li>
-                <li> <a href="https://drive.google.com/file/d/1bbbn8kSBmcVObafdzAQEipRBc4SVqwtb/view"> Personal Essays Dataset </a></li>
-                <li> <a href="#code"> PersonalityCafe Corpus**</a></li>
+                <li><a href="#code">SB-SCK Dataset**</a></li>
+                <li> <a href="#code"> ConceptNet  </a></li>
+                <li> <a href="https://homes.cs.washington.edu/~msap/atomic/"> ATOMIC dataset</a></li>
 
 
 
@@ -89,7 +86,7 @@
 
         </footer>
     </div>
-    <script src="/dapper/assets/js/scale.fix.js"></script>
+    <script src="/lifelong_eventrep/assets/js/scale.fix.js"></script>
 
 </body>
 
